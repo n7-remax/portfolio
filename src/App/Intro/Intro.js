@@ -1,4 +1,6 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import './intro.css';
 
 function Intro() {
@@ -11,7 +13,7 @@ function Intro() {
           <span>Front-end Developer</span>
           <span>Верстальщик</span>
         </p>
-        <a className="button transition-smooth" href="#about" title="">Обо мне</a>
+        <AnchorLink className="button transition-smooth" href='#about' title="">Обо мне</AnchorLink>
       </div>
       <ul className="intro-social transition-smooth">
         <li><a href="viber://chat?number=+380988328026" title="viber" target="_blank" rel="noopener noreferrer">
