@@ -1,6 +1,16 @@
 #about {
+    padding-top: 12rem;
+    padding-bottom: 15rem;
     height: 1000px;
+    margin: 0 auto;
+}
+
+.row {
     max-width: 850px;
     margin: 0 auto;
-    background: slateblue;
+}
+
+.about-intro h2 {
+    color: #0092cc;
+    text-align: center;
 }
