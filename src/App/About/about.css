@@ -14,3 +14,63 @@
     color: #0092cc;
     text-align: center;
 }
+.about-education {
+    margin: 0 20px 40px 20px;
+}
+
+.about-education p{
+    font-family: "lora-regular", serif;
+    font-size: 2rem;
+    line-height: 1.8;
+    text-align: center;
+    color: #888888;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.about-content {
+    display: flex;
+}
+.col-five {
+    flex: 1;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-content .about-list li {
+    padding: 0 0 1.5rem 0;
+    margin-bottom: .6rem;
+}
+
+.about-content .about-list li strong {
+    font-family: "poppins-bold", sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
+
+.about-content .about-list li span {
+    display: block;
+    font-family: "poppins-regular", sans-serif;
+    color: #6e6e6e;
+    font-size: 1.7rem;
+    line-height: 1;
+}
+
+.about-content h3 {
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.about-content p {
+    line-height: 1.5;
+    margin-bottom: 18px;
+}

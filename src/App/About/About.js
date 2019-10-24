@@ -8,6 +8,36 @@ function About() {
         <div className="about-intro">
           <h2>Обо мне</h2>
         </div>
+        <div className="about-education">
+          <p>Открытый международный университет развития человека "Украина" - Разработка программного обеспечения</p>
+        </div>
+        <div className="about-content">
+          <div className="col-five">
+            <ul className="about-list">
+              <li>
+                <strong>Ф.И.О.</strong>
+                <span>Винницкий Максим</span>
+              </li>
+              <li>
+                <strong>Полных лет:</strong>
+                <span>26</span>
+              </li>
+              <li>
+                <strong>Желаемая должность:</strong>
+                <span>Junior Front-End Developer</span>
+              </li>
+              <li>
+                <strong>Email:</strong>
+                <span>ditritusa@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+          <div className="col-five">
+            <h3>Навыки</h3>
+            <p>-HTML/HTML5, CSS/CSS3, JavaScript/ES6, ReactJS, OOP, git</p>
+            <p>-Visual Studio Code, Sublime Text 3, Adobe Photoshop, Adobe Premiere Pro, MS Office</p>
+          </div>
+        </div>
       </div>
     </section>
   );
