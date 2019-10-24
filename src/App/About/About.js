@@ -38,6 +38,10 @@ function About() {
             <p>-Visual Studio Code, Sublime Text 3, Adobe Photoshop, Adobe Premiere Pro, MS Office</p>
           </div>
         </div>
+        <div class="button-section">
+          <a href="mailto:ditritusa@gmail.com" title="Предложить работу" className="button transition-smooth" target="_blank" without rel="noopener noreferrer">Нанять</a>
+          <a href="test" title="Download CV" className="button transition-smooth" download="">Download CV</a>
+        </div>
       </div>
     </section>
   );

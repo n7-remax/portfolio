@@ -105,7 +105,7 @@
 .intro-social a:hover {
  color: #0092cc;
 }
- .transition-smooth, a {
+ .intro .transition-smooth a {
  -moz-transition: all 0.3s ease-in-out;
  -o-transition: all 0.3s ease-in-out;
  -webkit-transition: all 0.3s ease-in-out;
