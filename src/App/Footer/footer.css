@@ -1,4 +1,31 @@
-.footer {
-    height: 100px;
-    background: rosybrown;
+footer {
+    background: #151515;
+    padding-top: 5rem;
+    padding-bottom: 7.2rem;
+}
+#footer .row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-feedback {
+    color: white;
+    max-width: 700px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.footer-feedback h2 {
+    color: #0092cc;
+    padding-bottom: 10px;
+}
+
+.footer-feedback h3 {
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+}
+
+.footer-feedback p{
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 2rem;
 }
