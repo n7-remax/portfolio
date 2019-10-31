@@ -40,7 +40,7 @@ function About() {
         </div>
         <div class="button-section">
           <a href="mailto:ditritusa@gmail.com" title="Предложить работу" className="button transition-smooth" target="_blank" without rel="noopener noreferrer">Нанять</a>
-          <a href="test" title="Download CV" className="button transition-smooth" download="">Download CV</a>
+          <a href="https://www.dropbox.com/s/8stixxbuh2xicai/CV.docx?dl=0" title="Download CV" className="button transition-smooth" target="_blank" without rel="noopener noreferrer">Download CV</a>
         </div>
       </div>
     </section>
