@@ -34,7 +34,7 @@ function Portfolio() {
                             <img className="img-responsive" src={require('../../common/images/margarinno.jpg')} alt=""></img>
                             <div className="overlay">
                                 <h3>Artwork gallery</h3>
-                                <a className="info" href="https://n7-remax.github.io/react_first_project/" target="_blank" rel="noopener noreferrer">Проект на Java</a>
+                                <a className="info" href="https://margarinno-artwork.herokuapp.com/" target="_blank" rel="noopener noreferrer">Проект на Java</a>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ function Portfolio() {
                             <img className="img-responsive" src={require('../../common/images/redux.jpg')} alt=""></img>
                             <div className="overlay">
                                 <h3>React with Redux</h3>
-                                <a className="info" href="https://margarinno-artwork.herokuapp.com/" target="_blank" rel="noopener noreferrer">Тестовый проект</a>
+                                <a className="info" href="https://n7-remax.github.io/react_first_project/" target="_blank" rel="noopener noreferrer">Тестовый проект</a>
                             </div>
                         </div>
                     </div>
