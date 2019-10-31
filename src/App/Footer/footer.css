@@ -30,6 +30,28 @@ footer {
     line-height: 2rem;
 }
 
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    padding-top:60px;
+    padding-bottom:40px;
+    line-height: 4rem;
+}
+.contact-me h3 {
+    font-size: 1.8rem;
+    color: #0092cc;
+}
+
+.col-three {
+    width: 100%;
+ font-size: 4rem;
+ margin: 0;
+ padding: 0;
+}
+
 .footer-social-place {
     display: flex;
     flex-direction: row;
