@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.09d5640f.chunk.css",
+    "main.js": "/portfolio/static/js/main.8bcc36f9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8bcc36f9.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.021c856b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.021c856b.js.map",
+    "static/js/2.e633b0af.chunk.js": "/portfolio/static/js/2.e633b0af.chunk.js",
+    "static/js/2.e633b0af.chunk.js.map": "/portfolio/static/js/2.e633b0af.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.e645c4487f4ae89946a4beffe0fc8c4d.js": "/portfolio/precache-manifest.e645c4487f4ae89946a4beffe0fc8c4d.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.09d5640f.chunk.css.map": "/portfolio/static/css/main.09d5640f.chunk.css.map",
+    "static/media/flora.jpg": "/portfolio/static/media/flora.bde9891a.jpg",
+    "static/media/gaming-blog.jpg": "/portfolio/static/media/gaming-blog.6bba9e79.jpg",
+    "static/media/intro.css": "/portfolio/static/media/intro-bg.48703aa9.jpg",
+    "static/media/margarinno.jpg": "/portfolio/static/media/margarinno.4867699c.jpg",
+    "static/media/redux.jpg": "/portfolio/static/media/redux.1611a412.jpg",
+    "static/media/footer.css": "/portfolio/static/media/test.21e08ca7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.021c856b.js",
+    "static/js/2.e633b0af.chunk.js",
+    "static/css/main.09d5640f.chunk.css",
+    "static/js/main.8bcc36f9.chunk.js"
+  ]
+}
