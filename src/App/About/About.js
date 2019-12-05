@@ -20,7 +20,7 @@ function About() {
               </li>
               <li>
                 <strong>Полных лет:</strong>
-                <span>26</span>
+                <span>27</span>
               </li>
               <li>
                 <strong>Желаемая должность:</strong>
