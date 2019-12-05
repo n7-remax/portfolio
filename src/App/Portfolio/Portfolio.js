@@ -76,7 +76,7 @@ function Portfolio() {
                                             <p>Проект свёрстан в рамках коммерческого заказа. С использованием Html5 - CSS3 - JS - HerokuApp - Java - Spring. Кроссбраузерный, отображается корректно на всех последних версиях браузеров. Адаптивный, отображается корректно на различных мобильных устройствах.</p>
                                         </div>
                                         <div className="actions">
-                                            <a className="pop-button transition-smooth" href="https://www.massage-flora.com.ua/" target="_blank" rel="noopener noreferrer">Посмотреть</a>
+                                            <a className="pop-button transition-smooth" href="https://margarinno-artwork.herokuapp.com/" target="_blank" rel="noopener noreferrer">Посмотреть</a>
                                             <div
                                                 className="pop-button transition-smooth"
                                                 onClick={() => {
