@@ -10,10 +10,37 @@ function Portfolio() {
                     <h2>Портфолио</h2>
                 </div>
                 <div className="portfolio-projects">
+                <div className="container">
+                        <div className="hovereffect">
+                            <img className="img-responsive" src={require('../../common/images/bstu.jpg')} alt="university"></img>
+                            <Popup className="pop" trigger={<div className="overlay"> <h3>Bryansk State Technical University</h3><span className="info">Тестовый проект</span></div>} modal>
+                                {close => (
+                                    <div className="modal">
+                                        <img className="modal-img" src={require('../../common/images/bstu.jpg')} alt="university"></img>
+                                        <div class="description-box">
+                                            <h4>Bryansk State Technical University</h4>
+                                            <p>Проект свёрстан в рамках тестового задания. С использованием Html5 - CSS3 - JS - ReactJS, а так же реализация сетки страницы при помощи flexbox. Кроссбраузерный, отображается корректно на всех последних версиях браузеров</p>
+                                        </div>
+                                        <div className="actions">
+                                            <a className="pop-button transition-smooth" href="https://n7-remax.github.io/bstu/" target="_blank" rel="noopener noreferrer">Посмотреть</a>
+                                            <div
+                                                className="pop-button transition-smooth"
+                                                onClick={() => {
+                                                    close();
+                                                }}
+                                            >
+                                                <span>Закрыть</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
+                            </Popup>
+                        </div>
+                    </div>
                     <div className="container">
                         <div className="hovereffect">
                             <img className="img-responsive" src={require('../../common/images/flora.jpg')} alt="massage-flora"></img>
-                            <Popup className="pop" lockScroll="true" trigger={<div className="overlay"> <h3>Massage Studio 'Flora'</h3><span className="info">Коммерческий проект</span></div>} modal>
+                            <Popup className="pop" trigger={<div className="overlay"> <h3>Massage Studio 'Flora'</h3><span className="info">Коммерческий проект</span></div>} modal>
                                 {close => (
                                     <div className="modal">
                                         <img className="modal-img" src={require('../../common/images/flora.jpg')} alt="massage-flora"></img>
@@ -40,7 +67,7 @@ function Portfolio() {
                     <div className="container">
                         <div className="hovereffect">
                             <img className="img-responsive" src={require('../../common/images/gaming-blog.jpg')} alt="gaming-blog"></img>
-                            <Popup className="pop" lockScroll="true" trigger={<div className="overlay"> <h3>Gaming Blog</h3><span className="info">Тестовый проект</span></div>} modal>
+                            <Popup className="pop" trigger={<div className="overlay"> <h3>Gaming Blog</h3><span className="info">Тестовый проект</span></div>} modal>
                                 {close => (
                                     <div className="modal">
                                         <img className="modal-img" src={require('../../common/images/gaming-blog.jpg')} alt="gaming-blog"></img>
@@ -67,7 +94,7 @@ function Portfolio() {
                     <div className="container">
                         <div className="hovereffect">
                             <img className="img-responsive" src={require('../../common/images/margarinno.jpg')} alt="margarinno-artwork"></img>
-                            <Popup className="pop" lockScroll="true" trigger={<div className="overlay"> <h3>Margarinno Artwork</h3><span className="info">Коммерческий проект</span></div>} modal>
+                            <Popup className="pop" trigger={<div className="overlay"> <h3>Margarinno Artwork</h3><span className="info">Коммерческий проект</span></div>} modal>
                                 {close => (
                                     <div className="modal">
                                         <img className="modal-img" src={require('../../common/images/margarinno.jpg')} alt="margarinno-artwork"></img>
@@ -94,7 +121,7 @@ function Portfolio() {
                     <div className="container">
                         <div className="hovereffect">
                             <img className="img-responsive" src={require('../../common/images/redux.jpg')} alt="redux"></img>
-                            <Popup className="pop" lockScroll="true" trigger={<div className="overlay"> <h3>React with Redux</h3><span className="info">Тестовый проект</span></div>} modal>
+                            <Popup className="pop" trigger={<div className="overlay"> <h3>React with Redux</h3><span className="info">Тестовый проект</span></div>} modal>
                                 {close => (
                                     <div className="modal">
                                         <img className="modal-img" src={require('../../common/images/redux.jpg')} alt="redux"></img>
@@ -116,7 +143,6 @@ function Portfolio() {
                                     </div>
                                 )}
                             </Popup>
-
                         </div>
                     </div>
                 </div>
