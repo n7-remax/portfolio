@@ -161,19 +161,26 @@ p {
     .contact-me {
         flex-direction: column;
         max-width: 160px;
+        margin: 0 auto;
     }
 
     .contact-me .col-three {
         margin-bottom: 10px;
     }
    
-    .footer-feedback + .contact-me {
+    .footer-feedback {
         max-width: 290px;
         margin: 0 auto;
     }
 
     .footer-social-place {
         text-align: center;
+    }
+    
+    .button-section .button {
+        margin:0;
+        margin-bottom: 2rem;
+        width: 60%;
     }
     
 }
