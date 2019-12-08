@@ -160,14 +160,20 @@ p {
 
     .contact-me {
         flex-direction: column;
+        max-width: 160px;
     }
 
     .contact-me .col-three {
         margin-bottom: 10px;
     }
    
-    .footer-feedback {
+    .footer-feedback + .contact-me {
         max-width: 290px;
+        margin: 0 auto;
+    }
+
+    .footer-social-place {
+        text-align: center;
     }
     
 }
