@@ -70,6 +70,24 @@ p {
         font-size: 1.3rem;
     }
 
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-content .col-five {
+        padding: 0 20px;
+    }
+
+    .about-content h3 {
+        text-align: center;
+        margin-top:18px;
+    }
+
+    .button-section .button {
+        width: 70%;
+        margin-bottom: 3rem;
+    }
+
    
 }
 
