@@ -118,6 +118,28 @@ p {
        #portfolio .portfolio-projects {
            flex-direction: column;
        }
+
+       .footer-social-place {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #footer .col-half:last-child {
+        margin-bottom: 20px;
+    }
+
+    .footer-social {
+        font-size: 2.8rem;
+    }
+
+    .footer-social li {
+        margin:0 14px;
+
+    }
+    
+    .copyright {
+        font-size: 1.8rem;
+    }
            
 }
 
@@ -131,5 +153,21 @@ p {
     [class*="col-"] {
         padding: 0 5px;
     }
+
+    .intro-social li {
+        margin:0 10px;
+    }
+
+    .contact-me {
+        flex-direction: column;
+    }
+
+    .contact-me .col-three {
+        margin-bottom: 10px;
+    }
    
+    .footer-feedback {
+        max-width: 290px;
+    }
+    
 }
