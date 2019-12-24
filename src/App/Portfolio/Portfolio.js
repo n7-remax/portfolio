@@ -12,6 +12,33 @@ function Portfolio() {
                 <div className="portfolio-projects">
                 <div className="container">
                         <div className="hovereffect">
+                            <img className="img-responsive" src={require('../../common/images/ualuck.jpg')} alt="ualuck"></img>
+                            <Popup className="pop" trigger={<div className="overlay"> <h3>UALUCK</h3><span className="info">Тестовый проект, закончен на 50%</span></div>} modal>
+                                {close => (
+                                    <div className="modal">
+                                        <img className="modal-img" src={require('../../common/images/ualuck.jpg')} alt="ualuck"></img>
+                                        <div class="description-box">
+                                            <h4>UALUCK</h4>
+                                            <p>Проект свёрстан в рамках тестового задания. С использованием Html5 - SCSS - JS - ReactJS, а так же реализация сетки страницы при помощи flexbox. Кроссбраузерный, отображается корректно на всех последних версиях браузеров</p>
+                                        </div>
+                                        <div className="actions">
+                                            <a className="pop-button transition-smooth" href="https://n7-remax.github.io/ualuck/" target="_blank" rel="noopener noreferrer">Посмотреть</a>
+                                            <div
+                                                className="pop-button transition-smooth"
+                                                onClick={() => {
+                                                    close();
+                                                }}
+                                            >
+                                                <span>Закрыть</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
+                            </Popup>
+                        </div>
+                    </div>
+                <div className="container">
+                        <div className="hovereffect">
                             <img className="img-responsive" src={require('../../common/images/bstu.jpg')} alt="university"></img>
                             <Popup className="pop" trigger={<div className="overlay"> <h3>Bryansk State Technical University</h3><span className="info">Тестовый проект</span></div>} modal>
                                 {close => (
