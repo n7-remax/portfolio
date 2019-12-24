@@ -39,8 +39,8 @@ function About() {
           </div>
         </div>
         <div class="button-section">
-          <a href="mailto:ditritusa@gmail.com" title="Предложить работу" className="button transition-smooth" target="_blank" without rel="noopener noreferrer">Нанять</a>
-          <a href="https://www.dropbox.com/s/8stixxbuh2xicai/CV.docx?dl=0" title="Download CV" className="button transition-smooth" target="_blank" without rel="noopener noreferrer">Download CV</a>
+          <a href="https://drive.google.com/open?id=1JQKfX65VaDoy-aZkn7WZRrGHgVdSJ7kk" title="Download CV ENG" className="button transition-smooth" target="_blank" without rel="noopener noreferrer">Download CV ENG</a>
+          <a href="https://drive.google.com/open?id=1sXuOOWDEYa4SRAShAfLwvN7OWVz17SnS" title="Download CV RU" className="button transition-smooth" target="_blank" without rel="noopener noreferrer">Download CV RU</a>
         </div>
       </div>
     </section>
