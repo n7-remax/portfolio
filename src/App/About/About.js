@@ -34,7 +34,7 @@ function About() {
           </div>
           <div className="col-five">
             <h3>Навыки</h3>
-            <p>-HTML/HTML5, CSS/CSS3, JavaScript/ES6, ReactJS, Git</p>
+            <p>-HTML/HTML5, CSS/CSS3, SASS/SCSS, JavaScript/ES6, ReactJS, Git</p>
             <p>-Visual Studio Code, Sublime Text 3, Adobe Photoshop, Adobe Premiere Pro</p>
           </div>
         </div>
