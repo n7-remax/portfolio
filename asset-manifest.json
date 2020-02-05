@@ -1,29 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0172cfa6.chunk.css",
-    "main.js": "/portfolio/static/js/main.741cc87d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.741cc87d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.dec8971e.chunk.css",
+    "main.js": "/portfolio/static/js/main.887d2d8b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.887d2d8b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.021c856b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.021c856b.js.map",
-    "static/js/2.e29be647.chunk.js": "/portfolio/static/js/2.e29be647.chunk.js",
-    "static/js/2.e29be647.chunk.js.map": "/portfolio/static/js/2.e29be647.chunk.js.map",
+    "static/js/2.830b47a2.chunk.js": "/portfolio/static/js/2.830b47a2.chunk.js",
+    "static/js/2.830b47a2.chunk.js.map": "/portfolio/static/js/2.830b47a2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ef9d9e467ea1c41fd4d42754f0bf8c32.js": "/portfolio/precache-manifest.ef9d9e467ea1c41fd4d42754f0bf8c32.js",
+    "precache-manifest.466adc64691dd79ca06b4918cdb21408.js": "/portfolio/precache-manifest.466adc64691dd79ca06b4918cdb21408.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.0172cfa6.chunk.css.map": "/portfolio/static/css/main.0172cfa6.chunk.css.map",
-    "static/media/bstu.jpg": "/portfolio/static/media/bstu.f3653200.jpg",
-    "static/media/flora.jpg": "/portfolio/static/media/flora.bde9891a.jpg",
-    "static/media/gaming-blog.jpg": "/portfolio/static/media/gaming-blog.6bba9e79.jpg",
-    "static/media/intro.css": "/portfolio/static/media/intro-bg.48703aa9.jpg",
-    "static/media/margarinno.jpg": "/portfolio/static/media/margarinno.4867699c.jpg",
-    "static/media/redux.jpg": "/portfolio/static/media/redux.1611a412.jpg",
-    "static/media/footer.css": "/portfolio/static/media/test.21e08ca7.png",
-    "static/media/ualuck.jpg": "/portfolio/static/media/ualuck.2a8aa486.jpg"
+    "static/css/main.dec8971e.chunk.css.map": "/portfolio/static/css/main.dec8971e.chunk.css.map",
+    "static/media/footer.css": "/portfolio/static/media/ft-bg.21e08ca7.png",
+    "static/media/intro.css": "/portfolio/static/media/intro-bg.48703aa9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.021c856b.js",
-    "static/js/2.e29be647.chunk.js",
-    "static/css/main.0172cfa6.chunk.css",
-    "static/js/main.741cc87d.chunk.js"
+    "static/js/2.830b47a2.chunk.js",
+    "static/css/main.dec8971e.chunk.css",
+    "static/js/main.887d2d8b.chunk.js"
   ]
 }
