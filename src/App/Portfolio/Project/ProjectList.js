@@ -11,16 +11,20 @@ function ProjectList() {
     return (<div className="portfolio-projects">{projectList}</div>)
 }
 
+function ProjectImage(props) {
+    return (<img className={props.className} src={props.image} alt={props.name}/>)
+}
+
 function Project(props) {
     const project = props.project
     return (
         <div className="container">
             <div className="hovereffect">
-                <img className="img-responsive" src={project.image} alt={project.name}></img>
+                <ProjectImage className="img-responsive" image={project.image} name={props.name}/>
                 <Popup className="pop" trigger={<div className="overlay"> <h3>{project.name}</h3><span className="info">{project.type}</span></div>} modal>
                     {close => (
                         <div className="modal">
-                            <img className="modal-img" src={project.image} alt={project.name}></img>
+                            <ProjectImage className="modal-img" image={project.image} name={props.name}/>
                             <div class="description-box">
                                 <h4>{project.name}</h4>
                                 <p>{project.description}</p>
