@@ -1,6 +1,7 @@
 import React from 'react';
 import Popup from "reactjs-popup";
 
+import './project.css'
 import myProjects from './myProjects'
 
 function ProjectList() {
