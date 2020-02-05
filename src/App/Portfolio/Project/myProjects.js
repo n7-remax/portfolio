@@ -43,7 +43,7 @@ const myProjects = [
         id: 6,
         name: 'React with Redux',
         image: '/images/redux.jpg',
-        type: 'Прототип для БГТУ',
+        type: 'Redux tesing',
         description: 'Проект свёрстан в рамках тестового задания. С использованием Html - CSS - JS - ReactJS - Redux. Реализовано управление данных посредством общего контейнера Redux',
         linkToProject: 'https://n7-remax.github.io/react_first_project/'
     },
