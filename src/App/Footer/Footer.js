@@ -28,7 +28,7 @@ function Footer() {
         </div>
         <div class="footer-social-place">
           <div class="col-half">
-            <span className="copyright">© Copyright Max Vinnytskyi 2019</span>
+            <span className="copyright">© Copyright Max Vinnytskyi 2020</span>
           </div>
           <div class="col-half">
             <SocialList className="footer-social transition-smooth"/>
