@@ -8,13 +8,12 @@ function Intro() {
   return (
     <section className="intro">
       <div className="intro-content">
-        <h5>Портфолио</h5>
-        <h1>Винницкий Максим</h1>
+        <h5>Portfolio</h5>
+        <h1>Vinnytskyi Maksym</h1>
         <p className="intro-position">
-          <span>Front-end Developer</span>
-          <span>Верстальщик</span>
+          <span>Front-End Developer</span>
         </p>
-        <AnchorLink className="button transition-smooth" href='#about' title="">Обо мне</AnchorLink>
+        <AnchorLink className="button transition-smooth" href='#about' title="">About me</AnchorLink>
       </div>
       <SocialList className="intro-social transition-smooth"/>
     </section>
