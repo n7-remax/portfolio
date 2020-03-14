@@ -6,24 +6,24 @@ function About() {
     <section id="about">
       <div className="row">
         <div className="about-intro">
-          <h2>Обо мне</h2>
+          <h2>About me</h2>
         </div>
         <div className="about-education">
-          <p>Открытый международный университет развития человека "Украина" - Разработка программного обеспечения</p>
+          <p>Open International University of Human Development "Ukraine" - Software Development</p>
         </div>
         <div className="about-content">
           <div className="col-five">
             <ul className="about-list">
               <li>
-                <strong>Ф.И.О.</strong>
-                <span>Винницкий Максим</span>
+                <strong>Full name</strong>
+                <span>Vinnytskyi Maksym</span>
               </li>
               <li>
-                <strong>Полных лет:</strong>
+                <strong>Age:</strong>
                 <span>27</span>
               </li>
               <li>
-                <strong>Желаемая должность:</strong>
+                <strong>Desired position:</strong>
                 <span>Junior Front-End Developer</span>
               </li>
               <li>
@@ -33,7 +33,7 @@ function About() {
             </ul>
           </div>
           <div className="col-five">
-            <h3>Навыки</h3>
+            <h3>Skills</h3>
             <p>-HTML/HTML5, CSS/CSS3, SASS/SCSS, JavaScript/ES6, ReactJS, Git</p>
             <p>-Visual Studio Code, Sublime Text 3, Adobe Photoshop, Adobe Premiere Pro</p>
           </div>
