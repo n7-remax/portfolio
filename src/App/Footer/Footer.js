@@ -7,14 +7,14 @@ function Footer() {
     <footer id="footer">
       <div className="row">
         <div className="footer-feedback">
-          <h2>Обратная связь</h2>
-          <h3>Ваше мнение очень важно для меня</h3>
-          <p>Если у вас остались вопросы, или вы хотите предложить мне работу, воспользуйтесь одним из способов связи со мной</p>
+          <h2>Feedback</h2>
+          <h3>Your opinion is very important to me.</h3>
+          <p>If you still have questions or want to offer me a job, use one of the ways to contact me</p>
         </div>
         <div className="contact-me">
           <div className="col-three">
             <i className="fa fa-mobile"></i>
-            <h3>Телефон</h3>
+            <h3>Phone</h3>
             <p>(+380) 98-832-80-26</p>
           </div>
           <div className="col-three"><i className="fa fa-envelope-o"></i>
@@ -22,13 +22,13 @@ function Footer() {
             <p>ditritusa@gmail.com</p>
           </div>
           <div className="col-three"><i className="fa fa-map-marker"></i>
-            <h3>Локация</h3>
-            <p>Украина, Киев</p>
+            <h3>Location</h3>
+            <p>Ukraine, Kiev</p>
           </div>
         </div>
         <div class="footer-social-place">
           <div class="col-half">
-            <span className="copyright">© Copyright Max Vinnytskyi 2020</span>
+            <span className="copyright">© Copyright Maksym Vinnytskyi 2020</span>
           </div>
           <div class="col-half">
             <SocialList className="footer-social transition-smooth"/>
