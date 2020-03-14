@@ -9,7 +9,7 @@ function Portfolio() {
         <section id="portfolio">
             <div className="row">
                 <div className="portfolio-heading">
-                    <h2>Портфолио</h2>
+                    <h2>Projects</h2>
                 </div>
                 <ProjectList/>
             </div>

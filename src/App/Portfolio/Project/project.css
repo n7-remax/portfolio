@@ -132,11 +132,11 @@
   .pop-button {
       font-family: "poppins-bold", sans-serif;
       text-decoration: none;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       line-height: 6rem;
       color: #FFFFFF;
       text-transform: uppercase;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
       cursor: pointer;
       display: block;
       width: 50%;

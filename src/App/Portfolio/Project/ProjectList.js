@@ -30,9 +30,9 @@ function Project(props) {
                                 <p>{project.description}</p>
                             </div>
                             <div className="actions">
-                                <a className="pop-button transition-smooth" href={project.linkToProject} target="_blank" rel="noopener noreferrer">Посмотреть</a>
+                                <a className="pop-button transition-smooth" href={project.linkToProject} target="_blank" rel="noopener noreferrer">View</a>
                                 <div className="pop-button transition-smooth" onClick={() => { close(); }}>
-                                    <span>Закрыть</span>
+                                    <span>Close</span>
                                 </div>
                             </div>
                         </div>
