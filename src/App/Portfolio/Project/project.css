@@ -106,6 +106,15 @@
     .description-box {
       padding: 1.8rem 3.6rem 3rem;
     }
+    .description-box a {
+      font-size: 1.8rem;
+      text-decoration: none;
+      color: black;
+      text-align: left;
+    }
+    .description-box a:hover {
+      color: #0092cc;
+    }
   
     .description-box h4 {
       text-align: left;

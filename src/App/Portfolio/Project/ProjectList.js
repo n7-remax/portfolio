@@ -28,6 +28,7 @@ function Project(props) {
                             <div class="description-box">
                                 <h4>{project.name}</h4>
                                 <p>{project.description}</p>
+                                <a href={project.linkToGit} title="github" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-square"></i> GitHub</a>
                             </div>
                             <div className="actions">
                                 <a className="pop-button transition-smooth" href={project.linkToProject} target="_blank" rel="noopener noreferrer">View</a>
