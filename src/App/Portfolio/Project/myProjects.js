@@ -1,6 +1,24 @@
 const myProjects = [
     {
         id: 1,
+        name: 'React Quiz',
+        image: './images/quiz.jpg',
+        type: 'Pet-Project',
+        description: 'This is a pet-project with simple Quiz. Using Html5 - CSS - JS - ReactJS. Cross-browser, displays correctly on all recent browser versions',
+        linkToProject: 'https://n7-remax.github.io/gamer-quiz/',
+        linkToGit: 'https://github.com/n7-remax/gamer-quiz/tree/master',
+    },
+    {
+        id: 2,
+        name: 'React with Rest API',
+        image: './images/news.jpg',
+        type: 'Pet-Project',
+        description: 'This is a pet-project without create-react-app with Rest API and Webpack. The goal was to recieve data such as recent top news and display it. Using Html5 - SASS - JS - ReactJS - Webpack. Cross-browser, displays correctly on all recent browser versions',
+        linkToProject: 'https://n7-remax.github.io/react-news/',
+        linkToGit: 'https://github.com/n7-remax/react-news/tree/master',
+    },
+    {
+        id: 3,
         name: 'UALUCK',
         image: './images/ualuck.jpg',
         type: 'Test project',
@@ -9,7 +27,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/ualuck'
     },
     {
-        id: 2,
+        id: 4,
         name: 'Bryansk State Technical University',
         image: './images/bstu.jpg',
         type: 'Prototype for BSTU',
@@ -18,7 +36,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/bstu'
     },
     {
-        id: 3,
+        id: 5,
         name: 'Massage Studio "Flora"',
         image: './images/flora.jpg',
         type: 'Commercial project',
@@ -27,7 +45,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax'
     },
     {
-        id: 4,
+        id: 6,
         name: 'Gaming Blog',
         image: './images/gaming-blog.jpg',
         type: 'Test project',
@@ -36,7 +54,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/blog-project'
     },
     {
-        id: 5,
+        id: 7,
         name: 'Margarinno Artwork',
         image: './images/margarinno.jpg',
         type: 'Commercial project',
@@ -45,7 +63,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/ualuck'
     },
     {
-        id: 6,
+        id: 8,
         name: 'React with Redux',
         image: './images/redux.jpg',
         type: 'Redux tesing',
