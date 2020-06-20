@@ -12,7 +12,7 @@ function ProjectList() {
 }
 
 function ProjectImage(props) {
-    return (<img className={props.className} src={props.image} alt={props.name}/>)
+    return (<img className={props.className} src={props.image} alt={props.name} />)
 }
 
 function Project(props) {
@@ -20,15 +20,18 @@ function Project(props) {
     return (
         <div className="container">
             <div className="hovereffect">
-                <ProjectImage className="img-responsive" image={project.image} name={props.name}/>
+                <ProjectImage className="img-responsive" image={project.image} name={props.name} />
                 <Popup className="pop" trigger={<div className="overlay"> <h3>{project.name}</h3><span className="info">{project.type}</span></div>} modal>
                     {close => (
                         <div className="modal">
-                            <ProjectImage className="modal-img" image={project.image} name={props.name}/>
+                            <ProjectImage className="modal-img" image={project.image} name={props.name} />
                             <div class="description-box">
                                 <h4>{project.name}</h4>
                                 <p>{project.description}</p>
-                                <a href={project.linkToGit} title="github" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-square"></i> GitHub</a>
+                                {project.linkToGit ?
+                                    <a href={project.linkToGit} title="github" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-square"></i> GitHub</a>
+                                    : ''
+                                }
                             </div>
                             <div className="actions">
                                 <a className="pop-button transition-smooth" href={project.linkToProject} target="_blank" rel="noopener noreferrer">View</a>

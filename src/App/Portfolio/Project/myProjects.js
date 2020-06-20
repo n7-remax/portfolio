@@ -1,6 +1,35 @@
+let idCounter = 0;
+
 const myProjects = [
     {
-        id: 1,
+        id: idCounter++,
+        name: 'tmrrw inc',
+        image: './images/tmrrwinc.jpg',
+        type: 'Commercial Company Project',
+        description: 'The project was completed as part of a commercial order. Using Html5 - CSS - JS - ReactJS - GatsbyJS. Cross-browser, displays correctly on all recent browsers. Responsive, displayed correctly on various mobile devices.',
+        linkToProject: 'https://tmrrwinc.ca/',
+        linkToGit: '',
+    },
+    {
+        id: idCounter++,
+        name: 'Rondos Pizza Plus',
+        image: './images/rondos-pizza.jpg',
+        type: 'Commercial Company Project',
+        description: 'The project was completed as part of a commercial order. Using Html5 - CSS - JS - JQuery. Cross-browser, displays correctly on all recent browsers. Responsive, displayed correctly on various mobile devices.',
+        linkToProject: 'https://rondospizzaplus.com/',
+        linkToGit: '',
+    },
+    {
+        id: idCounter++,
+        name: 'Azsoft Rocks',
+        image: './images/azsoft.jpg',
+        type: 'Company Project',
+        description: 'Website for Azsoft Rocks company. Using Html5 - CSS - JS. Cross-browser, displays correctly on all recent browsers. Responsive, displayed correctly on various mobile devices.',
+        linkToProject: 'https://azsoft.rocks/',
+        linkToGit: '',
+    },
+    {
+        id: idCounter++,
         name: 'React Quiz',
         image: './images/quiz.jpg',
         type: 'Pet-Project',
@@ -9,7 +38,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/gamer-quiz/tree/master',
     },
     {
-        id: 2,
+        id: idCounter++,
         name: 'React with Rest API',
         image: './images/news.jpg',
         type: 'Pet-Project',
@@ -18,7 +47,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/react-news/tree/master',
     },
     {
-        id: 3,
+        id: idCounter++,
         name: 'UALUCK',
         image: './images/ualuck.jpg',
         type: 'Test project',
@@ -27,7 +56,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/ualuck'
     },
     {
-        id: 4,
+        id: idCounter++,
         name: 'Bryansk State Technical University',
         image: './images/bstu.jpg',
         type: 'Prototype for BSTU',
@@ -36,16 +65,16 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/bstu'
     },
     {
-        id: 5,
+        id: idCounter++,
         name: 'Massage Studio "Flora"',
         image: './images/flora.jpg',
         type: 'Commercial project',
         description: 'The project was completed as part of a commercial order. Using Html5 - CSS3 - JS - ReactJS, as well as the implementation of the page grid using flexbox. Cross-browser, displays correctly on all recent browser versions',
         linkToProject: 'https://www.massage-flora.com.ua/',
-        linkToGit: 'https://github.com/n7-remax'
+        linkToGit: ''
     },
     {
-        id: 6,
+        id: idCounter++,
         name: 'Gaming Blog',
         image: './images/gaming-blog.jpg',
         type: 'Test project',
@@ -54,7 +83,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/blog-project'
     },
     {
-        id: 7,
+        id: idCounter++,
         name: 'Margarinno Artwork',
         image: './images/margarinno.jpg',
         type: 'Commercial project',
@@ -63,7 +92,7 @@ const myProjects = [
         linkToGit: 'https://github.com/n7-remax/ualuck'
     },
     {
-        id: 8,
+        id: idCounter++,
         name: 'React with Redux',
         image: './images/redux.jpg',
         type: 'Redux tesing',

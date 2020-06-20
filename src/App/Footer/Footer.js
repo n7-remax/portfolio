@@ -26,11 +26,11 @@ function Footer() {
             <p>Ukraine, Kiev</p>
           </div>
         </div>
-        <div class="footer-social-place">
-          <div class="col-half">
+        <div className="footer-social-place">
+          <div className="col-half">
             <span className="copyright">© Copyright Maksym Vinnytskyi 2020</span>
           </div>
-          <div class="col-half">
+          <div className="col-half">
             <SocialList className="footer-social transition-smooth"/>
           </div>
         </div>
