@@ -16,11 +16,11 @@ function About() {
             <ul className="about-list">
               <li>
                 <strong>Full name</strong>
-                <span>Vinnytskyi Maksym</span>
+                <span>Maksym Vinnytskyi</span>
               </li>
               <li>
                 <strong>Age:</strong>
-                <span>27</span>
+                <span>28</span>
               </li>
               <li>
                 <strong>Desired position:</strong>
@@ -34,7 +34,7 @@ function About() {
           </div>
           <div className="col-five">
             <h3>Skills</h3>
-            <p>-HTML/HTML5, CSS/CSS3, SASS/SCSS, JavaScript/ES6, JQuery, ReactJS, Git</p>
+            <p>-HTML/HTML5, CSS/CSS3, SASS/SCSS, Less, JavaScript/ES6, JQuery, ReactJS, React Native, Git</p>
             <p>-Visual Studio Code, Sublime Text 3, Adobe Photoshop, Adobe Premiere Pro</p>
           </div>
         </div>
