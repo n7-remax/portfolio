@@ -3,7 +3,7 @@
 }
 
 #portfolio .row {
-    max-width: 1140px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
@@ -16,4 +16,23 @@
 .portfolio-projects {
     display: flex;
     flex-wrap: wrap;
+}
+
+#portfolio h3 {
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+#portfolio .fa {
+    font-size: 20px;
+    color: black;
+    margin-right: 12px;
+}
+#portfolio .project-item {
+    padding:  10px 20px;
+}
+#portfolio p {
+    margin-bottom: 5px;
 }

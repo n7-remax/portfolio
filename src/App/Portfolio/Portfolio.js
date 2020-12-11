@@ -8,9 +8,6 @@ function Portfolio() {
     return (
         <section id="portfolio">
             <div className="row">
-                <div className="portfolio-heading">
-                    <h2>Projects</h2>
-                </div>
                 <ProjectList/>
             </div>
         </section>
