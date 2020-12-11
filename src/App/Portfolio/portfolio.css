@@ -1,38 +1,38 @@
 #portfolio {
-  padding-bottom:15rem;
+  padding-bottom: 15rem;
 }
 
 #portfolio .row {
-    max-width: 850px;
-    margin: 0 auto;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 .portfolio-heading h2 {
-    color: #0092cc;
-    text-align: center;
-    margin-bottom: 40px;
+  color: #0092cc;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .portfolio-projects {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #portfolio h3 {
-    font-family: "poppins-bold", sans-serif;
-    font-size: 1.7rem;
-    line-height: 1.5;
-    letter-spacing: .2rem;
-    text-transform: uppercase;
+  font-family: "poppins-bold", sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 #portfolio .fa {
-    font-size: 20px;
-    color: black;
-    margin-right: 12px;
+  font-size: 20px;
+  color: black;
+  margin-right: 12px;
 }
 #portfolio .project-item {
-    padding:  10px 20px;
+  padding: 10px 20px;
 }
 #portfolio p {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
