@@ -2,8 +2,6 @@ import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialList from "../SocialList/SocialList";
 
-import "./intro.css";
-
 function Intro() {
   return (
     <section className="intro">

@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./portfolio.css";
-
 import ProjectList from "./Project/ProjectList";
 
 function Portfolio() {
