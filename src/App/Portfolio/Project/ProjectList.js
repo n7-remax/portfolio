@@ -54,7 +54,7 @@ function ProjectList() {
         </div>
         <div className="project-item">
           <h3>Star Wars API</h3>
-          <p>HTML5 - CSS3 - JS - Axios - ReactJS</p>
+          <p>HTML5 - SCSS - JS - Axios - ReactJS</p>
           <a
             href="https://n7-remax.github.io/react-star-wars/"
             target="_blank"
