@@ -19,6 +19,17 @@ function ProjectList() {
           </a>
         </div>
         <div className="project-item">
+          <h3>Eternal Fit</h3>
+          <p>HTML5 - CSS3 - JS - GraphQL - Nuxt.js - Vue.js</p>
+          <a
+            href="https://theeternalfit.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa fa-link" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div className="project-item">
           <h3>Rondos Pizza Plus</h3>
           <p>HTML5 - CSS3 - JS - JQuery</p>
           <a
@@ -31,7 +42,7 @@ function ProjectList() {
         </div>
         <div className="project-item">
           <h3>Bryansk State Technical University Prototype</h3>
-          <p>HTML5 - CSS3 - JS - ReactJS</p>
+          <p>HTML5 - CSS3 - JS - React.js</p>
           <a
             href="https://n7-remax.github.io/bstu/"
             target="_blank"
